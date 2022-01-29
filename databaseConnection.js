@@ -4,11 +4,12 @@ const is_heroku = process.env.IS_HEROKU || false;
 
 //mysql://b6fb24cb4c8c37:702be0f5@us-cdbr-east-03.cleardb.com/heroku_a79dfbc72e06757?reconnect=true
 const dbConfigHeroku = {
-	host: "us-cdbr-east-03.cleardb.com",
-	user: "b6fb24cb4c8c37",
-	password: "702be0f5",
-	database: "heroku_a79dfbc72e06757",
-	multipleStatements: false
+	host: "jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+	user: "xhjzilr3xyqdg09f",
+	password: "rjztgrrd19j0ko4g",
+	database: "f86spfgaljkekjlu",
+	multipleStatements: false,
+	reconnect: true
 };
 
 const dbConfigLocal = {
