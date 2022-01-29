@@ -10,6 +10,5 @@ function getAllTodos(callback) {
 	callback(null, data);
 }
 
-const dbModel = include("databaseAccessLayer");
 
 module.exports = {getAllTodos}
