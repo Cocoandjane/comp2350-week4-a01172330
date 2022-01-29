@@ -1,6 +1,6 @@
 const mysql = require('mysql2');
 
-const is_heroku = process.env.IS_HEROKU || false;
+const is_heroku = process.env.IS_HEROKU || 3306;
 
 //mysql://b6fb24cb4c8c37:702be0f5@us-cdbr-east-03.cleardb.com/heroku_a79dfbc72e06757?reconnect=true
 const dbConfigHeroku = {
